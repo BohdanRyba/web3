@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Niramit:200,300,400,500,600,700|Open+Sans:400,600,700,800|Roboto:400,500,700,900&subset=cyrillic,cyrillic-ext,latin-ext');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto','Niramit','Open Sans', sans-serif;
+    font-size: 20px;
+}

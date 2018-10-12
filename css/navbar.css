@@ -1,0 +1,69 @@
+
+.logo-box {
+    margin-left: 10px;
+    float: left;
+}
+nav {
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.navigation-item {
+    display: inline;
+}
+.burger{
+    display: none;
+}
+.navigation-item a {
+    text-decoration: none;
+}
+
+header {
+    color: rgb(92, 92, 92);
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background: linear-gradient(60deg, rgba(165, 145, 151, 0.3), rgba(102, 96, 83, 0.3));
+    height: 3rem;
+}
+
+.navigation-item:not(:last-child)::after {
+    content: '//';
+    padding:0 10px;
+}
+
+.navigation-item:last-child {
+    padding-right: 20px;
+}
+
+
+@media screen and (max-width: 780px) {
+
+    .burger{
+        float: right;
+        display: block;
+        cursor: pointer;
+    }
+
+
+    nav{
+        display: none;
+    }
+
+    .logo-box{
+        color:red;
+    }
+
+    #toggle:checked ~ nav{
+        display: block;
+    }
+
+    nav ul li{
+        display: block;
+    }
+}
