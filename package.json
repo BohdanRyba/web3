@@ -1,0 +1,18 @@
+{
+  "name": "web3",
+  "version": "1.0.0",
+  "description": "web 3 group lessons",
+  "main": "index.js",
+  "scripts": {
+    "serve":"live-server",
+    "dev": "yarn node-sass scss/main.scss css/main.css -w"
+  },
+  "repository": "https://github.com/BohdanRyba/web3.git",
+  "author": "Bohdan Rybchynskiy <web.dev.asoft@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "live-server": "^1.2.0",
+    "node-sass": "^4.9.3"
+  }
+}
