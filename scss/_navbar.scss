@@ -1,6 +1,12 @@
+$main_color:rgba(150,150,150,0.8);
+
 header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     overflow: hidden;
-    background-color:#ccc;
+    background-color: $main_color;
 }
 
 .burger {
@@ -29,6 +35,7 @@ nav ul {
 }
 
 header a {
+
     float: right;
     color: black;
     text-align: center;
@@ -38,13 +45,13 @@ header a {
 }
 
 header a:hover {
-    background-color: #ddd;
+    background-color: $main_color;
     color: rgb(255, 0, 0);
     border-bottom: 1px solid red;
 }
 
 .active {
-    background-color: #cfcfcf;
+    background-color: transparent;
     color: blue;
 }
 
@@ -62,6 +69,7 @@ header a:hover {
     }
     .navigation li a{
         display: block;
+        //растягивает на всю ширину экрана 
         width: 100vw;
         text-align: center;
     }
