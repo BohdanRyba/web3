@@ -1,0 +1,40 @@
+/* .parent{
+    margin-left: 100px;
+    background: red;
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+.child1{
+    background: blue;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 50%;
+    right: -200px;
+}
+.child2{
+    background: green;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: -50px;
+    left: -50px;
+} */
+/* 
+
+.navbar{
+    width: 100%;
+    background: gray;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+} */
+.parent{
+    margin: 30px auto;
+    width: 60%;
+}
+.parent .img{
+    width: 100%;
+}
