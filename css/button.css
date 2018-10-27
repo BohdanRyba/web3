@@ -1,15 +1,22 @@
-
 .btn {
-    border-style: none;
-    font-size: 18px;
-    padding: 1rem; }
-    .btn__primary {
-      background: gray; }
-      .btn__primary:hover {
-        color: white;
-        background: lightgray; }
-    .btn__blue {
-      background: lightgray; }
-    .btn__error {
-      background: orange; }
-  
+  border-style: none;
+  font-size: 18px;
+  padding: 1rem;
+}
+
+.btn__primary {
+  background: gray;
+}
+
+.btn__primary:hover {
+  color: white;
+  background: lightgray;
+}
+
+.btn__blue {
+  background: lightgray;
+}
+
+.btn__error {
+  background: orange;
+}

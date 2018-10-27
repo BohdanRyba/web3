@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.benefits {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.item {
+    box-shadow: 1px 2px 4px gray;
+    margin: 10px 0;
+    flex-basis: 30%;
+    padding: 14px;
+}
+
+.item i {
+    color: blueviolet;
+    display: block;
+    font-size: 3rem;
+    text-align: center;
+}
+.item h2{
+    margin: 10px 0;
+    font-size: 2.5rem;
+}
+.item p { 
+    font-size: 1.5rem;
+}
+.center{
+    text-align: center;
+}
+.end{
+    text-align: end;
+}
+.start{
+    text-align: start;
+}
+
+.justify{
+    text-align: justify;
+}
